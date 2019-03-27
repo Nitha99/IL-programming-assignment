@@ -46,5 +46,4 @@ j=0
 str=input('enter the string to be checked')
 for i,j in zip(word,occurrence):
     if i.startswith(str):
-        print((i,j))
-        
+        print((i,j))      
